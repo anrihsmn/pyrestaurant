@@ -52,7 +52,8 @@ def account():
 			db.session.commit()
 			return redirect('/')
 
-		except:
+		except Exception as e:
+			print(e)
 			return 'Error in registration'
 
 	else:
