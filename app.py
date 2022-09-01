@@ -18,4 +18,4 @@ def create_app():
 # main app code. this app is just local variable
 app = create_app()
 
-from views import app as apptemp
+# from views import app as apptemp
